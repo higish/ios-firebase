@@ -9,7 +9,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// The top level Firebase Analytics singleton that provides methods for logging events and setting
 /// user properties. See <a href="http://goo.gl/gz8SLz">the developer guides</a> for general
 /// information on using Firebase Analytics in your apps.
-NS_SWIFT_NAME(Analytics)
+NS_SWIFT_NAME(FirebaseAnalytics)
 @interface FIRAnalytics : NSObject
 
 /// Logs an app event. The event can have up to 25 parameters. Events with the same name must have
